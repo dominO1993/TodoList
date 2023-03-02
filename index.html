@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/9db75eabe1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="todo">
+        <div class="todo__heading">
+            <h1 class="todo__title">ToDoList</h1>
+            <input type="text" class="todo__input" placeholder="Wpisz treść zadania...">
+            <button class="todo__add-btn">add</button>
+        </div>
+        <div class="todo__list">
+            <h3 class="todo__exercises">lista zadań:</h3>
+            <p class="todo__alert-info">Brak zadań na liście</p>
+            <ul>
+                <!-- <li class="todo__item">
+                    Zrobić kanapkę
+                    <div class="todo__tools">
+                        <button class="complete"><i class="fas fa-check"></i></button>
+                        <button class="edit">EDIT</button>
+                        <button class="delete"><i class="fas fa-times"></i></button>
+                    </div>
+                </li>
+                <li class="todo__item">
+                    Zrobić kanapkę
+                    <div class="todo__tools">
+                        <button class="complete"><i class="fas fa-check"></i></button>
+                        <button class="edit">EDIT</button>
+                        <button class="delete"><i class="fas fa-times"></i></button>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+
+    <div class="popup">
+        <h3 class="popup__title">Edytuj zadanie:</h3>
+        <div class="popup__body">
+            <p class="popup__info"></p>
+            <input type="text" class="popup__input">
+            <button class="popup__accept-btn">Zatwierdź</button>
+            <button class="popup__cancel-btn">Anuluj</button>
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
